@@ -36,12 +36,14 @@ title: Contact
 		</div>
 	</div>
 	
-		<div class="container main-content">
-			<section class="content">{{ content }}</section>
-<			{% include sidebar.html %}	
-		</div>
+		
 	<label for="message">Message</label>
 	<textarea name="message" id="message"></textarea>
 
 	<input type="submit" value="Send Message" />
 </form>
+
+<div class="container main-content">
+			<section class="content">{{ content }}</section>
+<			{% include sidebar.html %}	
+		</div>
