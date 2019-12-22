@@ -1,6 +1,11 @@
 ---
 title: Contact
 ---
+<div class="container main-content">
+			<section class="content">{{ content }}</section>
+			{% include sidebar.html %}	
+</div>
+
 <h1>Contact</h1>
 <p class="editable">Get in touch with any feedback or questions about the recipes featured here.</p>
 
@@ -43,7 +48,4 @@ title: Contact
 	<input type="submit" value="Send Message" />
 </form>
 
-<div class="container main-content">
-			<section class="content">{{ content }}</section>
-<			{% include sidebar.html %}	
-		</div>
+
