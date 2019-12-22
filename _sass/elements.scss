@@ -4,20 +4,11 @@ html , body {
 	line-height: 1.4em;
 }
 
-body:lang(en) {
-	font-family: 'Do Hyeon', sans-serif;
-}
-
-body:lang(ko) {
-	font-family: 'Nanum Pen Script', cursive;
-}
-
 body, input, textarea {
-	font-family: 'Nanum Pen Script', cursive;
+	font-family: 'Do Hyeon', 'Nanum Pen Script', cursive;
 	color: #222;
 	-webkit-font-smoothing: antialiased;
 	font-size: 1.4em;
-	
 }
 
 h1 {
