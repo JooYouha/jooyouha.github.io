@@ -13,10 +13,11 @@ nav {
 		color: #444;
 		text-transform: uppercase;
 		letter-spacing: 1px;
-		font-size: .9em;
+		font-size: 1.0em;
+		font-weight: bold;
 
 		&.active {
-			color: #888;
+			color: #ff5722;
 		}
 
 		&:hover {
