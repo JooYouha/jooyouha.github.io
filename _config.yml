@@ -75,14 +75,14 @@ exclude:
 
 social_icons:
   - Facebook
-#  - Google Plus
+  - Google Plus
   - Instagram
-#  - LinkedIn
+  - LinkedIn
   - Pinterest
   - Tumblr
   - Twitter
-#  - YouTube
-#  - RSS
+  - YouTube
+  - RSS
   - Email
 
 _options:
