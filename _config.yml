@@ -72,18 +72,19 @@ exclude:
 
 # -----------
 # CloudCannon
+# sidebar social icon 추가/삭제 (_config.yml && sidebar.yml)
 
 social_icons:
   - Facebook
-  - Google Plus
   - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
   - Email
+#  - Google Plus
+#  - LinkedIn
+#  - Pinterest
+#  - Tumblr
+#  - Twitter
+#  - YouTube
+#  - RSS
 
 _options:
   author_image:
