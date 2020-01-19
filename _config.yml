@@ -80,10 +80,10 @@ social_icons:
 #  - LinkedIn
 #  - Pinterest
 #  - Tumblr
-#  - Twitter
+  - Twitter
 #  - YouTube
 #  - RSS
-  - email
+  - Email
 
 _options:
   author_image:
