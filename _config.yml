@@ -74,15 +74,16 @@ exclude:
 # CloudCannon
 
 social_icons:
- # - Facebook
-  - Google Plus
+  - Facebook
+#  - Google Plus
   - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
+#  - LinkedIn
+#  - Pinterest
+#  - Tumblr
+#  - Twitter
+#  - YouTube
+#  - RSS
+  - email
 
 _options:
   author_image:
