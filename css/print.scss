@@ -23,8 +23,7 @@ body {
 
 /* POST에서 이미지 가운데 정렬*/
 .recipe-align {
-	display: block;
-	margin: auto;
+	float:right
 }
 
 .recipe-overview {
