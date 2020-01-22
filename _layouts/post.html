@@ -11,26 +11,8 @@ layout: default
 		{{ content }}
 	</div>
 
-    {% if page.recipe.status == "on" %}
-    <ul id="recipe" class="recipe-overview">
-		<li title="Servings">{% include recipe-icon.html icon="quantity" %}&nbsp;<span>{{ page.recipe.servings }}</span></li>
-		<li title="Prep Time">{% include recipe-icon.html icon="time" %}&nbsp;<span>{{ page.recipe.prep }}</span></li>
-		<li title="Cook Time">{% include recipe-icon.html icon="cook" %}&nbsp;<span>{{ page.recipe.cook }}</span></li>
-	</ul>
-	
-
-	<div class="recipe-contents">
-		<div class="ingredients">
-			<h2>Ingredients</h2>
-			{{ page.recipe.ingredients_markdown | markdownify }}
-		</div>
-
-		<div class="directions">
-			<h2>Directions</h2>
-			{{ page.recipe.directions_markdown | markdownify }}
-		</div>
-	</div>
-
+    {% if page.recipe.status == "yes" %}
+    	이상하게 안되네 뭐여 에러여? 조건문 되는 거냐고
     {% else %}
     	STATUS 가 NO 상태입니다라라라당당.
     {% endif %}
