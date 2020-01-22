@@ -45,6 +45,7 @@
 			padding: 0;
 			li {
 				list-style-type: none;
+				padding: 0 0 3px 0;
 				&:before {
 					content: '\00bb';
 					color: #ff4e4e;
@@ -60,7 +61,6 @@
 				list-style-type: none;
 				position: relative;
 				margin-left: 34px;
-				font-size: 15px;
 
 				&:before {
 					content: counter(step-counter);
