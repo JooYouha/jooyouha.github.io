@@ -5,6 +5,10 @@ html , body {
 }
 
 body, input, textarea {
+	@media (max-width: 767px) {
+			font-size: 15px;
+	}
+
 	font-family: 'Sunflower', sans-serif;
 	color: #222;
 	-webkit-font-smoothing: antialiased;
