@@ -11,7 +11,7 @@ layout: default
 		{{ content }}
 	</div>
 
-    {% if page.recipe.status == "yes" %}
+    {% if page.recipe.status == "on" %}
     <ul id="recipe" class="recipe-overview">
 		<li title="Servings">{% include recipe-icon.html icon="quantity" %}&nbsp;<span>{{ page.recipe.servings }}</span></li>
 		<li title="Prep Time">{% include recipe-icon.html icon="time" %}&nbsp;<span>{{ page.recipe.prep }}</span></li>
