@@ -11,10 +11,7 @@ layout: default
 		{{ content }}
 	</div>
 
-	{{ page.recipe.servings }}
-	{{ page.recipe.status }}
     {% if page.recipe.status == true %}
-    	이상하게 안되네 뭐여 에러여? 조건문 되는 거냐고
     <ul id="recipe" class="recipe-overview">
 		<li title="Servings">{% include recipe-icon.html icon="quantity" %}&nbsp;<span>{{ page.recipe.servings }}</span></li>
 		<li title="Prep Time">{% include recipe-icon.html icon="time" %}&nbsp;<span>{{ page.recipe.prep }}</span></li>
@@ -33,8 +30,6 @@ layout: default
 			{{ page.recipe.directions_markdown | markdownify }}
 		</div>
 	</div>
-    {% else %}
-    	STATUS 가 NO 상태입니다라라라당당.
     {% endif %}
 <!--
 	<ul id="recipe" class="recipe-overview">
