@@ -33,6 +33,7 @@
 
 			@media #{$desktop} {
 				display: inline-block;
+				font-size: 17.6px;
 			}
 		}
 	}
@@ -40,6 +41,7 @@
 	.recipe-contents {
 		@media #{$desktop} {
 			display: flex;
+			font-size: 17.6px;
 		}
 
 		ul {
