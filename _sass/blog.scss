@@ -40,6 +40,7 @@
 	.recipe-contents {
 		@media #{$desktop} {
 			display: flex;
+			font-size: 15px;
 		}
 
 		ul {
