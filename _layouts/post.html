@@ -11,15 +11,15 @@ layout: default
 		{{ content }}
 	</div>
 
-    {% if page.recipe.prep ==  5 minutes %}
+    {% if page.recipe.prep == 5 minutes %}
     	조건문 if 성공
     {% else %}
     	조건문 if 실패입니당.당다랑러다ㅓ라아
     {% endif %}
 	<ul id="recipe" class="recipe-overview">
-		<li title="Servings">{% include recipe-icon.html icon="quantity" %}<span>{{ page.recipe.servings }}</span></li>
-		<li title="Prep Time">{% include recipe-icon.html icon="time" %}<span>{{ page.recipe.prep }}</span></li>
-		<li title="Cook Time">{% include recipe-icon.html icon="cook" %}<span>{{ page.recipe.cook }}</span></li>
+		<li title="Servings">{% include recipe-icon.html icon="quantity" %}&nbsp;<span>{{ page.recipe.servings }}</span></li>
+		<li title="Prep Time">{% include recipe-icon.html icon="time" %}&nbsp;<span>{{ page.recipe.prep }}</span></li>
+		<li title="Cook Time">{% include recipe-icon.html icon="cook" %}&nbsp;<span>{{ page.recipe.cook }}</span></li>
 	</ul>
 	
 
