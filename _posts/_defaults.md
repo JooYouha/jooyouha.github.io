@@ -4,6 +4,7 @@ categories:
 date:
 featured_image:
 recipe:
+  status:
   servings:
   prep:
   cook:
