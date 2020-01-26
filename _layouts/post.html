@@ -12,7 +12,6 @@ layout: default
 	</div>
 
 <!-- (조건문) true 일 때 레시피 보일 수 있게 -->
-{{ page.recipe.status }}
     {% if page.recipe.status == true %}
     <ul id="recipe" class="recipe-overview">
 		<li title="Servings">{% include recipe-icon.html icon="quantity" %}&nbsp;<span>{{ page.recipe.servings }}</span></li>
